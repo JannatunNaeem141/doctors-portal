@@ -19,8 +19,8 @@ const Services = () => {
                 <Service name='Teeth Whitening' description='Lorem Ipsum is simply dummy printing and typesetting indust Ipsum has been the' img={whitening}></Service>
             </div>
             <div class="card lg:card-side bg-base-100 shadow-xl mx-28 my-24 mb-[200px]">
-                <figure><img className='rounded-lg' src={treatment} alt="Album" /></figure>
-                <div class="card-body ml-12">
+                <figure><img className='rounded-lg  flex-1' src={treatment} alt="Album" /></figure>
+                <div class="card-body ml-12 flex-1">
                     <h2 class="card-title font-bold text-5xl">Exceptional Dental Care, on Your Terms</h2>
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsumis that it has a more-or-less normal distribution of letters,as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page</p>
                     <PrimaryButton>get started</PrimaryButton>
