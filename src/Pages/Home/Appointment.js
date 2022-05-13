@@ -16,7 +16,7 @@ const Appointment = () => {
                     <h1 className='text-white text-4xl card-title '>Make an appointment Today</h1>
                     <p className='text-white w-3/4 mb-6'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsumis that it has a more-or-less normal distribution of letters,as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page</p>
                 </div>
-                <div class="card-actions justify-start">
+                <div className="card-actions justify-start">
                     <PrimaryButton>get started</PrimaryButton>
                 </div>
             </div>
