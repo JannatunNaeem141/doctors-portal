@@ -1,10 +1,10 @@
 import React from 'react';
-import footer from '../../assets/images/footer.png'
+import footer from '../../../assets/images/footer.png';
 
 const Footer = () => {
     return (
         <footer className="p-10" style={{ backgroundImage: `url(${footer})`, backgroundSize: 'cover' }}>
-            <div className='footer'>
+            <div className='footer max-w-7xl mx-3 md:mx-12 lg:mx-auto'>
                 <div>
                     <span className="footer-title">SERVICES</span>
                     <a className="link link-hover">Emergency Checkup</a>
