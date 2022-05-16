@@ -22,7 +22,7 @@ const MyAppointment = () => {
                 <table class="table w-full">
                     <thead>
                         <tr>
-                            <th></th>
+                            <th>Index</th>
                             <th>Name</th>
                             <th>Date</th>
                             <th>Time</th>
